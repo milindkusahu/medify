@@ -109,27 +109,42 @@ export default function Navbar() {
         >
           <div className="container mx-auto px-4 py-4 flex flex-col space-y-4">
             <a
-              className="text-gray-700 font-extrabold hover:text-[#2AA8FF]"
+              className="text-gray-700 font-normal hover:text-[#2AA8FF]"
               href="#"
             >
               Find Doctors
             </a>
-            <a className="text-gray-700 hover:text-[#2AA8FF]" href="#">
+            <a
+              className="text-gray-700 font-normal hover:text-[#2AA8FF]"
+              href="#"
+            >
               Hospitals
             </a>
-            <a className="text-gray-700 hover:text-[#2AA8FF]" href="#">
+            <a
+              className="text-gray-700 font-normal hover:text-[#2AA8FF]"
+              href="#"
+            >
               Medicines
             </a>
-            <a className="text-gray-700 hover:text-[#2AA8FF]" href="#">
+            <a
+              className="text-gray-700 font-normal hover:text-[#2AA8FF]"
+              href="#"
+            >
               Surgeries
             </a>
-            <a className="text-gray-700 hover:text-[#2AA8FF]" href="#">
+            <a
+              className="text-gray-700 font-normal hover:text-[#2AA8FF]"
+              href="#"
+            >
               Software for Provider
             </a>
-            <a className="text-gray-700 hover:text-[#2AA8FF]" href="#">
+            <a
+              className="text-gray-700 font-normal hover:text-[#2AA8FF]"
+              href="#"
+            >
               Facilities
             </a>
-            <Button>Search</Button>
+            <Button>My Bookings</Button>
           </div>
         </div>
       </nav>
