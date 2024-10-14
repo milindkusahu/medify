@@ -4,9 +4,13 @@
 
 Medify is a React-based web application that allows users to find medical centers in specific states and cities across the USA and book appointments. This project was developed as part of a front-end developer assignment to showcase skills in React development, API integration, and responsive design.
 
+## Site Preview
+
+![Medify Site Screenshot](https://raw.githubusercontent.com/milindkusahu/medify/refs/heads/main/Medify%20Slot%20Booking%20Demo.png)
+
 ## Live Demo
 
-[View the live application](https://medify-milindkusahu.vercel.app/)
+[View the live application](https://medify-three-puce.vercel.app/)
 
 ## Features
 
@@ -54,7 +58,7 @@ The application integrates with the following backend endpoints:
 
 ## Deployment
 
-This project is deployed on Vercel. The live version can be accessed [here](https://medify-milindkusahu.vercel.app/).
+This project is deployed on Vercel. The live version can be accessed [here](https://medify-three-puce.vercel.app/).
 
 ## Contributing
 
