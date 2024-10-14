@@ -1,10 +1,10 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import App from "./App.jsx";
+import App from "./App";
 import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { createTheme, ThemeProvider } from "@mui/material";
-import Home from "./pages/Home/Home.jsx";
+import Home from "./pages/Home/Home";
 import Search from "../src/pages/Search/Search";
 import MyBookings from "../src/pages/MyBookings/MyBookings";
 
