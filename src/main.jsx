@@ -6,6 +6,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { createTheme, ThemeProvider } from "@mui/material";
 import Home from "./pages/Home/Home.jsx";
 import Search from "../src/pages/Search/Search.jsx";
+import MyBookings from "../src/pages/MyBookings/MyBookings.jsx";
 
 const router = createBrowserRouter([
   {
@@ -19,6 +20,10 @@ const router = createBrowserRouter([
       {
         path: "search",
         element: <Search />,
+      },
+      {
+        path: "my-bookings",
+        element: <MyBookings />,
       },
     ],
   },
@@ -38,8 +43,6 @@ export const theme = createTheme({
   components: {
     MuiGrid2: {
       defaultProps: {
-        // all grids under this theme will apply
-        // negative margin on the top and left sides.
         disableEqualOverflow: true,
       },
     },
