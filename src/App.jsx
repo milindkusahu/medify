@@ -6,6 +6,7 @@ import HospitalSearch from "./components/HospitalSearch/HospitalSearch";
 import HeroServices from "./components/Hero/HeroServices";
 import Offers from "./components/Sections/Offers/Offers";
 import Specialization from "./components/Sections/Specialization/Specialization";
+import Specialists from "./components/Sections/Specialists/Specialists";
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
       <HeroServices />
       <Offers />
       <Specialization />
+      <Specialists />
       <Footer />
     </div>
   );
