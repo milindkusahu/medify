@@ -9,6 +9,7 @@ import Specialization from "./components/Sections/Specialization/Specialization"
 import Specialists from "./components/Sections/Specialists/Specialists";
 import PatientCaring from "./components/Sections/PatientCaring/PatientCaring";
 import BlogCard from "./components/Sections/Blogs/BlogCard";
+import OurFamilies from "./components/Sections/OurFamilies/OurFamilies";
 
 const App = () => {
   return (
@@ -22,6 +23,7 @@ const App = () => {
       <Specialists />
       <PatientCaring />
       <BlogCard />
+      <OurFamilies />
       <Footer />
     </div>
   );
