@@ -3,7 +3,7 @@ import HospitalCard from "../../components/HospitalCard/HospitalCard";
 import { useEffect, useState } from "react";
 import cta from "../../assets/cta.png";
 import SearchBar from "../../components/SearchBar/SearchBar";
-import NavBar from "../../components/NavBar/NavBar";
+import NavBar from "../../components/Navbar/Navbar";
 
 export default function MyBookings() {
   const [bookings, setBookings] = useState([]);

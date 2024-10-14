@@ -8,7 +8,7 @@ import cta from "../../assets/cta.png";
 import HospitalSearch from "../../components/HospitalSearch/HospitalSearch";
 import BookingModal from "../../components/BookingModal/BookingModal";
 import SnackbarAlert from "../../components/SnackbarAlert/SnackbarAlert";
-import NavBar from "../../components/NavBar/NavBar";
+import NavBar from "../../components/Navbar/Navbar";
 
 export default function Search() {
   const [seachParams, setSearchParams] = useSearchParams();

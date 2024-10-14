@@ -8,7 +8,7 @@ import PatientCaring from "../../components/Sections/PatientCaring/PatientCaring
 import Specialists from "../../components/Sections/Specialists/Specialists";
 import Specialization from "../../components/Sections/Specialization/Specialization";
 import Offers from "../../components/Sections/Offers/Offers";
-import NavBar from "../../components/NavBar/NavBar";
+import NavBar from "../../components/Navbar/Navbar";
 import HeroServices from "../../components/Hero/HeroServices";
 
 export default function Home() {
