@@ -10,6 +10,7 @@ import Specialists from "./components/Sections/Specialists/Specialists";
 import PatientCaring from "./components/Sections/PatientCaring/PatientCaring";
 import BlogCard from "./components/Sections/Blogs/BlogCard";
 import OurFamilies from "./components/Sections/OurFamilies/OurFamilies";
+import Faqs from "./components/Sections/Faqs/Faqs";
 
 const App = () => {
   return (
@@ -25,6 +26,7 @@ const App = () => {
       <BlogCard />
       <OurFamilies />
       <Footer />
+      <Faqs />
     </div>
   );
 };
