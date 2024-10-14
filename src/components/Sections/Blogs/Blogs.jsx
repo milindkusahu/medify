@@ -13,14 +13,18 @@ export default function Blogs() {
           Read Our Latest News
         </Typography>
 
-        <Grid container spacing={4}>
-          <Grid xs={12} md={4}>
+        <Grid
+          container
+          spacing={{ xs: 2, md: 3 }}
+          columns={{ xs: 4, sm: 8, md: 12 }}
+        >
+          <Grid size={{ xs: 2, sm: 4, md: 4 }}>
             <BlogCard />
           </Grid>
-          <Grid xs={12} md={4}>
+          <Grid size={{ xs: 2, sm: 4, md: 4 }}>
             <BlogCard />
           </Grid>
-          <Grid xs={12} md={4}>
+          <Grid size={{ xs: 2, sm: 4, md: 4 }}>
             <BlogCard />
           </Grid>
         </Grid>

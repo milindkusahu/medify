@@ -15,12 +15,17 @@ export default function PatientCaring() {
   return (
     <Box py={6} sx={{ background: "linear-gradient(#E7F0FF, #E8F1FF)" }}>
       <Container>
-        <Grid container spacing={6} alignItems="center">
-          <Grid xs={12} md={6}>
+        <Grid
+          container
+          spacing={{ xs: 2, sm: 2, md: 5 }}
+          columns={{ xs: 4, sm: 8, md: 10 }}
+          alignItems="center"
+        >
+          <Grid size={{ xs: 2, sm: 4, md: 5 }}>
             <Box component="img" src={banner} width={1} />
           </Grid>
 
-          <Grid xs={12} md={6}>
+          <Grid size={{ xs: 2, sm: 4, md: 5 }}>
             <Typography fontWeight={600} color="primary.main">
               HELPING PATIENTS FROM AROUND THE GLOBE!!
             </Typography>

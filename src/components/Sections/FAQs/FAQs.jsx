@@ -36,12 +36,17 @@ export default function FAQs() {
         <Typography textAlign="center" variant="h2" mb={2}>
           Frequently Asked Questions
         </Typography>
-        <Grid container alignItems="center" spacing={5}>
-          <Grid xs={12} md={6}>
+        <Grid
+          container
+          spacing={{ xs: 2, sm: 2, md: 5 }}
+          columns={{ xs: 4, sm: 8, md: 10 }}
+          alignItems="center"
+        >
+          <Grid size={{ xs: 2, sm: 4, md: 5 }}>
             <Box src={faqBanner} component="img" width={1} height="auto" />
           </Grid>
 
-          <Grid xs={12} md={6}>
+          <Grid size={{ xs: 2, sm: 4, md: 5 }}>
             <Box maxWidth={450}>
               <Accordion data={faqs} />
             </Box>

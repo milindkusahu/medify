@@ -30,12 +30,12 @@ export default function Specialization() {
 
         <Grid
           container
-          spacing={{ xs: 1, md: 3 }}
+          spacing={{ xs: 2, sm: 2, md: 2 }}
+          columns={{ xs: 4, sm: 8, md: 12 }}
           mb={5}
-          justifyContent={"center"}
         >
-          {data.map((item) => (
-            <Grid xs={4} md={3} key={item.title}>
+          {data.map((item, index) => (
+            <Grid key={index} size={{ xs: 2, sm: 4, md: 3 }}>
               <IconCard
                 img={item.icon}
                 title={item.title}

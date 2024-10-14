@@ -11,8 +11,12 @@ export default function Footer() {
   return (
     <Box bgcolor="primary.secondary" pb={3} pt={6}>
       <Container maxWidth="xl">
-        <Grid container spacing={4}>
-          <Grid xs={12} md={4.5}>
+        <Grid
+          container
+          spacing={{ xs: 2, sm: 2, md: 2 }}
+          columns={{ xs: 4, sm: 8, md: 12 }}
+        >
+          <Grid size={{ xs: 2, sm: 4, md: 3 }}>
             <Stack
               alignItems="flex-start"
               justifyContent="space-between"
@@ -28,7 +32,7 @@ export default function Footer() {
             </Stack>
           </Grid>
 
-          <Grid xs={12} md={2.5}>
+          <Grid size={{ xs: 2, sm: 4, md: 3 }}>
             <Stack spacing={2}>
               <FooterLink>About Us</FooterLink>
               <FooterLink>Our Pricing</FooterLink>
@@ -38,7 +42,7 @@ export default function Footer() {
             </Stack>
           </Grid>
 
-          <Grid xs={12} md={2.5}>
+          <Grid size={{ xs: 2, sm: 4, md: 3 }}>
             <Stack spacing={2}>
               <FooterLink>Orthology</FooterLink>
               <FooterLink>Neurology</FooterLink>
@@ -48,7 +52,7 @@ export default function Footer() {
             </Stack>
           </Grid>
 
-          <Grid xs={12} md={2.5}>
+          <Grid size={{ xs: 2, sm: 4, md: 3 }}>
             <Stack spacing={2}>
               <FooterLink>About Us</FooterLink>
               <FooterLink>Our Pricing</FooterLink>
