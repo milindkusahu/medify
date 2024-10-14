@@ -5,8 +5,8 @@ import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { createTheme, ThemeProvider } from "@mui/material";
 import Home from "./pages/Home/Home.jsx";
-import Search from "../src/pages/Search/Search.jsx";
-import MyBookings from "../src/pages/MyBookings/MyBookings.jsx";
+import Search from "../src/pages/Search/Search";
+import MyBookings from "../src/pages/MyBookings/MyBookings";
 
 const router = createBrowserRouter([
   {
