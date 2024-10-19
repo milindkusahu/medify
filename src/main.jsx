@@ -41,11 +41,6 @@ export const theme = createTheme({
     },
   },
   components: {
-    MuiGrid2: {
-      defaultProps: {
-        disableEqualOverflow: true,
-      },
-    },
     MuiButton: {
       styleOverrides: {
         root: {
